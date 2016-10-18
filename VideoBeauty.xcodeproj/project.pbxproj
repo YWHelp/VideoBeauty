@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE019B905334AAA1592CED9D /* libPods-VideoBeauty.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2D4610C3AC425548D0CF5A /* libPods-VideoBeauty.a */; };
+		DDE90B1B1DB5BE5D009CFE60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE90B1A1DB5BE5D009CFE60 /* main.m */; };
+		DDE90B1E1DB5BE5D009CFE60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE90B1D1DB5BE5D009CFE60 /* AppDelegate.m */; };
+		DDE90B211DB5BE5D009CFE60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE90B201DB5BE5D009CFE60 /* ViewController.m */; };
+		DDE90B241DB5BE5D009CFE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B221DB5BE5D009CFE60 /* Main.storyboard */; };
+		DDE90B261DB5BE5D009CFE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B251DB5BE5D009CFE60 /* Assets.xcassets */; };
+		DDE90B291DB5BE5D009CFE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE90B271DB5BE5D009CFE60 /* LaunchScreen.storyboard */; };
+		DDE90B341DB5BE5D009CFE60 /* VideoBeautyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE90B331DB5BE5D009CFE60 /* VideoBeautyTests.m */; };
+		DDE90B3F1DB5BE5D009CFE60 /* VideoBeautyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE90B3E1DB5BE5D009CFE60 /* VideoBeautyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE90B301DB5BE5D009CFE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE90B0E1DB5BE5D009CFE60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE90B151DB5BE5D009CFE60;
+			remoteInfo = VideoBeauty;
+		};
+		DDE90B3B1DB5BE5D009CFE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE90B0E1DB5BE5D009CFE60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE90B151DB5BE5D009CFE60;
+			remoteInfo = VideoBeauty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33C8D71B56D97D4FCFC193A0 /* Pods-VideoBeauty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBeauty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBeauty/Pods-VideoBeauty.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE90B161DB5BE5D009CFE60 /* VideoBeauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoBeauty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE90B1A1DB5BE5D009CFE60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE90B1C1DB5BE5D009CFE60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE90B1D1DB5BE5D009CFE60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE90B1F1DB5BE5D009CFE60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE90B201DB5BE5D009CFE60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE90B231DB5BE5D009CFE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE90B251DB5BE5D009CFE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE90B281DB5BE5D009CFE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE90B2A1DB5BE5D009CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE90B2F1DB5BE5D009CFE60 /* VideoBeautyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBeautyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE90B331DB5BE5D009CFE60 /* VideoBeautyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBeautyTests.m; sourceTree = "<group>"; };
+		DDE90B351DB5BE5D009CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE90B3A1DB5BE5D009CFE60 /* VideoBeautyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoBeautyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE90B3E1DB5BE5D009CFE60 /* VideoBeautyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoBeautyUITests.m; sourceTree = "<group>"; };
+		DDE90B401DB5BE5D009CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2D4610C3AC425548D0CF5A /* libPods-VideoBeauty.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoBeauty.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AEB028FC8784F67D80FDCD /* Pods-VideoBeauty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBeauty.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBeauty/Pods-VideoBeauty.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE90B131DB5BE5D009CFE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE019B905334AAA1592CED9D /* libPods-VideoBeauty.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B2C1DB5BE5D009CFE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B371DB5BE5D009CFE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D8A5916898D8D4CCCB4214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D4610C3AC425548D0CF5A /* libPods-VideoBeauty.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE90B0D1DB5BE5D009CFE60 = {
+			isa = PBXGroup;
+			children = (
+				DDE90B181DB5BE5D009CFE60 /* VideoBeauty */,
+				DDE90B321DB5BE5D009CFE60 /* VideoBeautyTests */,
+				DDE90B3D1DB5BE5D009CFE60 /* VideoBeautyUITests */,
+				DDE90B171DB5BE5D009CFE60 /* Products */,
+				E3B3A26554F0C146DE37BF57 /* Pods */,
+				D0D8A5916898D8D4CCCB4214 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE90B171DB5BE5D009CFE60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B161DB5BE5D009CFE60 /* VideoBeauty.app */,
+				DDE90B2F1DB5BE5D009CFE60 /* VideoBeautyTests.xctest */,
+				DDE90B3A1DB5BE5D009CFE60 /* VideoBeautyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE90B181DB5BE5D009CFE60 /* VideoBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B1C1DB5BE5D009CFE60 /* AppDelegate.h */,
+				DDE90B1D1DB5BE5D009CFE60 /* AppDelegate.m */,
+				DDE90B1F1DB5BE5D009CFE60 /* ViewController.h */,
+				DDE90B201DB5BE5D009CFE60 /* ViewController.m */,
+				DDE90B221DB5BE5D009CFE60 /* Main.storyboard */,
+				DDE90B251DB5BE5D009CFE60 /* Assets.xcassets */,
+				DDE90B271DB5BE5D009CFE60 /* LaunchScreen.storyboard */,
+				DDE90B2A1DB5BE5D009CFE60 /* Info.plist */,
+				DDE90B191DB5BE5D009CFE60 /* Supporting Files */,
+			);
+			path = VideoBeauty;
+			sourceTree = "<group>";
+		};
+		DDE90B191DB5BE5D009CFE60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B1A1DB5BE5D009CFE60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE90B321DB5BE5D009CFE60 /* VideoBeautyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B331DB5BE5D009CFE60 /* VideoBeautyTests.m */,
+				DDE90B351DB5BE5D009CFE60 /* Info.plist */,
+			);
+			path = VideoBeautyTests;
+			sourceTree = "<group>";
+		};
+		DDE90B3D1DB5BE5D009CFE60 /* VideoBeautyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE90B3E1DB5BE5D009CFE60 /* VideoBeautyUITests.m */,
+				DDE90B401DB5BE5D009CFE60 /* Info.plist */,
+			);
+			path = VideoBeautyUITests;
+			sourceTree = "<group>";
+		};
+		E3B3A26554F0C146DE37BF57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33C8D71B56D97D4FCFC193A0 /* Pods-VideoBeauty.debug.xcconfig */,
+				F3AEB028FC8784F67D80FDCD /* Pods-VideoBeauty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE90B151DB5BE5D009CFE60 /* VideoBeauty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE90B431DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeauty" */;
+			buildPhases = (
+				18BB3077F02DDBEFA0B00D36 /* [CP] Check Pods Manifest.lock */,
+				DDE90B121DB5BE5D009CFE60 /* Sources */,
+				DDE90B131DB5BE5D009CFE60 /* Frameworks */,
+				DDE90B141DB5BE5D009CFE60 /* Resources */,
+				CBD3E3E0A04E1D7C02B44CD5 /* [CP] Embed Pods Frameworks */,
+				6A0924740D53C5C78F8A5920 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoBeauty;
+			productName = VideoBeauty;
+			productReference = DDE90B161DB5BE5D009CFE60 /* VideoBeauty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE90B2E1DB5BE5D009CFE60 /* VideoBeautyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE90B461DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeautyTests" */;
+			buildPhases = (
+				DDE90B2B1DB5BE5D009CFE60 /* Sources */,
+				DDE90B2C1DB5BE5D009CFE60 /* Frameworks */,
+				DDE90B2D1DB5BE5D009CFE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE90B311DB5BE5D009CFE60 /* PBXTargetDependency */,
+			);
+			name = VideoBeautyTests;
+			productName = VideoBeautyTests;
+			productReference = DDE90B2F1DB5BE5D009CFE60 /* VideoBeautyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE90B391DB5BE5D009CFE60 /* VideoBeautyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE90B491DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeautyUITests" */;
+			buildPhases = (
+				DDE90B361DB5BE5D009CFE60 /* Sources */,
+				DDE90B371DB5BE5D009CFE60 /* Frameworks */,
+				DDE90B381DB5BE5D009CFE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE90B3C1DB5BE5D009CFE60 /* PBXTargetDependency */,
+			);
+			name = VideoBeautyUITests;
+			productName = VideoBeautyUITests;
+			productReference = DDE90B3A1DB5BE5D009CFE60 /* VideoBeautyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE90B0E1DB5BE5D009CFE60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = beautysite;
+				TargetAttributes = {
+					DDE90B151DB5BE5D009CFE60 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ST585KS23M;
+						ProvisioningStyle = Automatic;
+					};
+					DDE90B2E1DB5BE5D009CFE60 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDE90B151DB5BE5D009CFE60;
+					};
+					DDE90B391DB5BE5D009CFE60 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDE90B151DB5BE5D009CFE60;
+					};
+				};
+			};
+			buildConfigurationList = DDE90B111DB5BE5D009CFE60 /* Build configuration list for PBXProject "VideoBeauty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE90B0D1DB5BE5D009CFE60;
+			productRefGroup = DDE90B171DB5BE5D009CFE60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE90B151DB5BE5D009CFE60 /* VideoBeauty */,
+				DDE90B2E1DB5BE5D009CFE60 /* VideoBeautyTests */,
+				DDE90B391DB5BE5D009CFE60 /* VideoBeautyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE90B141DB5BE5D009CFE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE90B291DB5BE5D009CFE60 /* LaunchScreen.storyboard in Resources */,
+				DDE90B261DB5BE5D009CFE60 /* Assets.xcassets in Resources */,
+				DDE90B241DB5BE5D009CFE60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B2D1DB5BE5D009CFE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B381DB5BE5D009CFE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BB3077F02DDBEFA0B00D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0924740D53C5C78F8A5920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBeauty/Pods-VideoBeauty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD3E3E0A04E1D7C02B44CD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoBeauty/Pods-VideoBeauty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE90B121DB5BE5D009CFE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE90B211DB5BE5D009CFE60 /* ViewController.m in Sources */,
+				DDE90B1E1DB5BE5D009CFE60 /* AppDelegate.m in Sources */,
+				DDE90B1B1DB5BE5D009CFE60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B2B1DB5BE5D009CFE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE90B341DB5BE5D009CFE60 /* VideoBeautyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE90B361DB5BE5D009CFE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE90B3F1DB5BE5D009CFE60 /* VideoBeautyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE90B311DB5BE5D009CFE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE90B151DB5BE5D009CFE60 /* VideoBeauty */;
+			targetProxy = DDE90B301DB5BE5D009CFE60 /* PBXContainerItemProxy */;
+		};
+		DDE90B3C1DB5BE5D009CFE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE90B151DB5BE5D009CFE60 /* VideoBeauty */;
+			targetProxy = DDE90B3B1DB5BE5D009CFE60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE90B221DB5BE5D009CFE60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE90B231DB5BE5D009CFE60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE90B271DB5BE5D009CFE60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE90B281DB5BE5D009CFE60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE90B411DB5BE5D009CFE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE90B421DB5BE5D009CFE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE90B441DB5BE5D009CFE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C8D71B56D97D4FCFC193A0 /* Pods-VideoBeauty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = VideoBeauty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeauty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDE90B451DB5BE5D009CFE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AEB028FC8784F67D80FDCD /* Pods-VideoBeauty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ST585KS23M;
+				INFOPLIST_FILE = VideoBeauty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeauty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDE90B471DB5BE5D009CFE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBeautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBeauty.app/VideoBeauty";
+			};
+			name = Debug;
+		};
+		DDE90B481DB5BE5D009CFE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoBeautyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoBeauty.app/VideoBeauty";
+			};
+			name = Release;
+		};
+		DDE90B4A1DB5BE5D009CFE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoBeautyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoBeauty;
+			};
+			name = Debug;
+		};
+		DDE90B4B1DB5BE5D009CFE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoBeautyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MW.VideoBeautyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoBeauty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE90B111DB5BE5D009CFE60 /* Build configuration list for PBXProject "VideoBeauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE90B411DB5BE5D009CFE60 /* Debug */,
+				DDE90B421DB5BE5D009CFE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE90B431DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE90B441DB5BE5D009CFE60 /* Debug */,
+				DDE90B451DB5BE5D009CFE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE90B461DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeautyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE90B471DB5BE5D009CFE60 /* Debug */,
+				DDE90B481DB5BE5D009CFE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE90B491DB5BE5D009CFE60 /* Build configuration list for PBXNativeTarget "VideoBeautyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE90B4A1DB5BE5D009CFE60 /* Debug */,
+				DDE90B4B1DB5BE5D009CFE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE90B0E1DB5BE5D009CFE60 /* Project object */;
+}
